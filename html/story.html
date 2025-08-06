@@ -1,0 +1,52 @@
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>たの会unofficial | Story</title>
+  <link rel="stylesheet" href="../css/story.css" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" type="text/css" href="../css/footer.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="../index.html">TOP</a>
+      <a href="story.html">STORY</a>
+      <a href="../html/videos.html">MEDIA</a>
+      <a href="../html/news.html">NEWS</a>
+    </nav>
+  </header>
+  <main class="container">
+    <section class="main-story">
+      <h1>沈黙が終わる刻</h1>
+      <p>未曽有の災害により自粛を要請された社会。</p>
+      <p>人と会い、笑い、触れ合う…それは最早、叶わないのか。</p>
+      <p>そんなある日、グループLINEでとある噂が流れる。</p>
+      <p>「Takayasuが消えた。」</p>
+      <p>たの会結成前夜までを描くモラトリアム群像劇。</p>
+    </section>
+
+    <section class="character-buttons">
+      <h2>Individual Stories</h2>
+      <div class="button-group">
+        <button class="char-button char1" onclick="showStory('char1')"></button>
+        <button class="char-button char2" onclick="showStory('char2')"></button>
+        <button class="char-button char3" onclick="showStory('char3')"></button>
+        <button class="char-button char4" onclick="showStory('char4')"></button>
+      </div>
+    </section>
+
+    <section id="char-story" class="char-story">
+      <h2 id="char-title"></h2>
+      <p id="char-text"></p>
+    </section>
+  </main>
+
+  <script src="../javascript/story.js"></script>
+  <script src="../javascript/adjustPadding.js"></script><!--ヘッダとボディコンテンツを重ねないように調整-->
+</body>
+<footer>
+  <p>&copy; 2025 Ta no kai. All Rights Reserved.</p>
+  <img src="../image/other/tanokai_logo.png" alt="logo_image">
+</footer>
+</html>

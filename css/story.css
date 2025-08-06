@@ -1,0 +1,102 @@
+/* 共通設定 */
+body {
+  background-color: #000;
+  margin: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+  color: #fff;
+}
+
+.container {
+  padding: 2rem 1rem;
+  max-width: 960px;
+  margin: auto;
+}
+
+/* メインストーリーセクション */
+.main-story {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.main-story h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.main-story p {
+  font-size: 1.2rem;
+  line-height: 2;
+  color: #fff;
+}
+
+/* キャラクターボタン */
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.char-button {
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.char-button:hover {
+  transform: scale(1.05);
+}
+
+.char1 { background-image: url('../image/buttons/char1.png'); }
+.char2 { background-image: url('../image/buttons/char2.png'); }
+.char3 { background-image: url('../image/buttons/char3.png'); }
+.char4 { background-image: url('../image/buttons/char4.png'); }
+
+/* キャラクターストーリー表示部 */
+.char-story {
+  padding: 2rem 1rem;
+  text-align: center;
+  color: #fff;
+  transition: background 0.5s ease;
+  border-radius: 10px;
+  margin-top: 3rem;
+}
+
+#char-title {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+#char-text {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  .char-button {
+    width: 120px;
+    height: 120px;
+  }
+
+  .main-story h1 {
+    font-size: 2rem;
+  }
+
+  #char-title {
+    font-size: 1.5rem;
+  }
+
+  #char-text {
+    font-size: 1rem;
+  }
+}
+#char-text {
+  white-space: pre-line; /* 改行文字（\\n）を反映させる */
+}

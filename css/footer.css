@@ -1,0 +1,18 @@
+
+/* フッターの定義 */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 3vmin;
+    margin-top: 1vmin;
+    
+  }
+/* footer img {
+    width: 10%;
+    height: 10%;
+} */
+footer img {
+    width: 120px;  /* お好みで調整：100〜200pxぐらいが目安 */
+    height: auto;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ta no kai Unofficial | Ta no song</title>
+    <link rel="stylesheet" href="../css/video.css">
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" type="text/css" href="../css/footer.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="../index.html">TOP</a>
+      <a href="../html/story.html">STORY</a>
+      <a href="videos.html">MEDIA</a>
+      <a href="../html/news.html">NEWS</a>
+    </nav>
+  </header>
+    <!-- サムネイルを複数に増やす -->
+    <div class="thumbnail-wrapper">
+        <img src="../image/video/video_01_s.jpg" alt="サムネイル1" class="thumbnail" data-video-src="../video/video_01.mp4">
+        <img src="../image/video/video_02_s.jpg" alt="サムネイル2" class="thumbnail" data-video-src="../video/video_02.mp4">
+        <img src="../image/video/video_03_s.jpg" alt="サムネイル3" class="thumbnail" data-video-src="../video/video_03.mp4">
+        <img src="../image/video/video_04_s.jpg" alt="サムネイル4" class="thumbnail" data-video-src="../video/video_04.mp4">
+        <img src="../image/video/video_05_s.jpg" alt="サムネイル5" class="thumbnail" data-video-src="../video/video_05.mp4">
+        <img src="../image/video/video_06_s.jpg" alt="サムネイル6" class="thumbnail" data-video-src="../video/video_06.mp4">
+        <img src="../image/video/video_07_s.jpg" alt="サムネイル7" class="thumbnail" data-video-src="../video/video_07.mp4">
+        <img src="../image/video/video_08_s.jpg" alt="サムネイル8" class="thumbnail" data-video-src="../video/video_08.mp4">
+        <img src="../image/video/video_09_s.jpg" alt="サムネイル9" class="thumbnail" data-video-src="../video/video_09.mp4">
+        <img src="../image/video/video_10_s.jpg" alt="サムネイル10" class="thumbnail" data-video-src="../video/video_10.mp4">
+        <img src="../image/video/video_11_s.jpg" alt="サムネイル11" class="thumbnail" data-video-src="../video/video_11.mp4">
+        <img src="../image/video/video_12_s.jpg" alt="サムネイル12" class="thumbnail" data-video-src="../video/video_12.mp4">
+        <img src="../image/video/video_13_s.jpg" alt="サムネイル13" class="thumbnail" data-video-src="../video/video_13.mp4">
+        <img src="../image/video/video_14_s.jpg" alt="サムネイル14" class="thumbnail" data-video-src="../video/video_14.MP4">
+        <img src="../image/video/video_15_s.jpg" alt="サムネイル15" class="thumbnail" data-video-src="../video/video_15.MP4">
+        <img src="../image/video/video_16_s.jpg" alt="サムネイル16" class="thumbnail" data-video-src="../video/video_16.MP4">
+        <img src="../image/video/video_17_s.jpg" alt="サムネイル17" class="thumbnail" data-video-src="../video/video_17.MP4">
+        <img src="../image/video/video_18_s.jpg" alt="サムネイル18" class="thumbnail" data-video-src="../video/video_18.MP4">
+        <img src="../image/video/video_19_s.jpg" alt="サムネイル19" class="thumbnail" data-video-src="../video/video_19.mp4">
+        <img src="../image/video/video_20_s.jpg" alt="サムネイル20" class="thumbnail" data-video-src="../video/video_20.mp4">
+        <img src="../image/video/video_21_s.jpg" alt="サムネイル21" class="thumbnail" data-video-src="../video/video_21.mp4"> <!-- 未使用のタグ -->
+        <img src="../image/video/video_22_s.jpg" alt="サムネイル22" class="thumbnail" data-video-src="../video/video_22.mp4"> <!-- 未使用のタグ -->
+        <img src="../image/video/video_23_s.jpg" alt="サムネイル23" class="thumbnail" data-video-src="../video/video_23.mp4"> <!-- 未使用のタグ -->
+        <img src="../image/video/video_24_s.jpg" alt="サムネイル24" class="thumbnail" data-video-src="../video/video_24.mp4"> <!-- 未使用のタグ -->
+        <img src="../image/video/video_25_s.jpg" alt="サムネイル25" class="thumbnail" data-video-src="../video/video_25.mp4"> <!-- 未使用のタグ -->
+        <img src="../image/video/video_26_s.jpg" alt="サムネイル26" class="thumbnail" data-video-src="../video/video_26.mp4"> <!-- 未使用のタグ -->
+        <img src="../image/video/video_27_s.jpg" alt="サムネイル27" class="thumbnail" data-video-src="../video/video_27.mp4"> <!-- 未使用のタグ -->
+        <img src="../image/video/video_28_s.jpg" alt="サムネイル28" class="thumbnail" data-video-src="../video/video_28.mp4"> <!-- 未使用のタグ -->
+        <img src="../image/video/video_29_s.jpg" alt="サムネイル29" class="thumbnail" data-video-src="../video/video_29.mp4"> <!-- 未使用のタグ -->
+        <img src="../image/video/video_30_s.jpg" alt="サムネイル30" class="thumbnail" data-video-src="../video/video_30.mp4"> <!-- 未使用のタグ -->
+    </div>
+
+    <div id="viewer" class="viewer hidden">
+        <div class="viewer-content">
+            <video id="video" controls>
+                <source src="../video/explain_about_fashion.mp4" type="video/mp4">
+                お使いのブラウザはvideoタグをサポートしていません。
+            </video>
+            <button id="closeBtn" class="close-btn">×</button>
+        </div>
+    </div>
+
+    <script src="../javascript/video.js"></script>
+    <script src="../javascript/adjustPadding.js"></script><!--ヘッダとボディコンテンツを重ねないように調整-->
+</body>
+
+<footer>
+  <p>&copy; 2025 Ta no kai. All Rights Reserved.</p>
+  <img src="../image/other/tanokai_logo.png" alt="logo_image">
+</footer>
+</html>
