@@ -32,7 +32,7 @@ nav a:hover {
   color: yellow;
 }
 
-.hero {
+/* .hero {
   height: 100vh;
   background: url('../image/index/top.jpg') no-repeat center center / cover;
   display: flex;
@@ -40,7 +40,24 @@ nav a:hover {
   justify-content: center;
   position: relative;
   padding-top: 5rem;
+} */
+.hero {
+  height: 100svh;
+  background: url('../image/index/top.jpg') no-repeat center center / cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding-top: 5rem;
+  box-sizing: border-box;
 }
+
+@media (max-width: 768px) {
+  .hero {
+    background-image: url('../image/index/top_mobile.jpg'); /* ←縦型の画像を用意 */
+  }
+}
+
 
 .hero-text {
   background-color: rgba(0, 0, 0, 0.6);
