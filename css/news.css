@@ -58,3 +58,46 @@ footer {
   padding: 2vmin;
   margin-top: 4vmin;
 }
+.news-entry-wrapper {
+  position: relative;
+  margin: 4rem 0;
+  overflow: hidden;
+  padding: 2rem;
+}
+
+.news-entry {
+  position: relative;
+  z-index: 2;
+  font-size: 1.5rem;
+  color: #fff;
+  text-align: center;
+}
+
+/* ふわっと浮かぶ背景画像 */
+.memory-bg {
+  position: absolute;
+  top: 50%;
+  width: 40%;
+  max-width: 400px;
+  height: auto;
+  opacity: 0;
+  transform: translateY(-50%) scale(0.9);
+  transition: all 1.2s ease;
+  z-index: 1;
+  pointer-events: none;
+  filter: blur(2px) brightness(0.7);
+  border-radius: 20px;
+}
+
+.memory-bg.left {
+  left: 5%;
+}
+
+.memory-bg.right {
+  right: 5%;
+}
+
+.memory-bg.show {
+  opacity: 0.45;
+  transform: translateY(-50%) scale(1);
+}
